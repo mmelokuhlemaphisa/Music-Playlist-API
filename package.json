@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec ts-node src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/mmelokuhlemaphisa/Music-Playlist-API/issues"
   },
-  "homepage": "https://github.com/mmelokuhlemaphisa/Music-Playlist-API#readme"
+  "homepage": "https://github.com/mmelokuhlemaphisa/Music-Playlist-API#readme",
+  "dependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
